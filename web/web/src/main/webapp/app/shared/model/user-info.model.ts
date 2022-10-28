@@ -1,0 +1,23 @@
+export interface UserInfo {
+  id?: string,
+  name?: string,
+  mobile?: string,
+  position?: string,
+  email?: string,
+  gender?: number,
+  genders?: string,
+  statusId?: number,
+  statusIds?: string,
+  checkRole?: number,
+  dateRole?: string,
+  dateRoles?: string,
+  cardNumber?: number,
+  cardNumbers?: string,
+  code?: string,
+  officeCode?: string,
+  group_id?: number,
+  createdDate?: Date,
+  createdDates?: string,
+  createdBy?: string,
+  text?: string
+}
